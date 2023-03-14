@@ -2,7 +2,6 @@ import React from "react";
 // import Products from "./Products";
 import Productcard from "./Productcard";
 import { CartContext } from "./contexts/context";
-import Products from "./Products";
 
 const Product = () => {
   const { state : {products, cart} } = CartContext();
